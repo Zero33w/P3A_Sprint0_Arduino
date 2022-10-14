@@ -17,10 +17,10 @@ void setup() {
 
    
    // Set the advertised device name (keep it short!)
-   Serial.println("Setting Device Name to GTI-S0 " );
+   Serial.println("Setting Device Name to Beacon:Guillem " );
 
    //nombre del beacon
-   Bluefruit.setName("GTI-S0");
+   Bluefruit.setName("Beacon:Guillem");
    Bluefruit.ScanResponse.addName();
 
   
